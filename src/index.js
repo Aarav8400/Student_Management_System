@@ -7,6 +7,9 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 await connectDB();
 
 import userRouter from "./router/user.routes.js";
