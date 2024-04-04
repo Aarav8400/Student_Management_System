@@ -1,0 +1,19 @@
+{
+  "name": "student_management_system",
+  "version": "1.0.0",
+  "description": "this about managing student",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "aarav,nihal",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.0"
+  }
+}
